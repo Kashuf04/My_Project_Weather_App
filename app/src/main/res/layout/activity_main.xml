@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/cityInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter City Name"/>
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Weather"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tempText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/weatherText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Condition"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/humidityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Humidity"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/windText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wind Speed"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>
