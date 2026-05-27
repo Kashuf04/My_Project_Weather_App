@@ -27,8 +27,7 @@ This is a simple Android Weather Application developed using Android Studio and 
 The user enters a city name and clicks the "Get Weather" button. The application sends a request to the weather API and displays live weather information on the screen.
 
 ## Screenshots
-
-(Add screenshots here)
+I have added the screenshots in the documentation file 
 
 ## Author
 
